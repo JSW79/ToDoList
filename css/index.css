@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: #333;
+}
+.main-width {
+  max-width: 600px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.header-box {
+  height: 40px;
+}
+.header-box p {
+  line-height: 40px;
+  font-size: 20px;
+  float: left;
+  color: #fff;
+}
+.header-box .text-box {
+  float: right;
+  line-height: 40px;
+}
+.header-box .text-box input {
+  outline: none;
+  height: 26px;
+  padding: 2px 6px;
+  color: #666;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+}
+.header-box .text-box button {
+  height: 26px;
+  width: 40px;
+  border: none;
+  border-radius: 5px;
+}
+.main-list {
+  margin-top: 20px;
+}
+.main-list h2 {
+  margin-top: 10px;
+}
+.main-list ul li {
+  list-style: none;
+  height: 30px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: #eee;
+}
+.main-list ul li input {
+  float: left;
+  height: 20px;
+  width: 20px;
+}
+.main-list ul li p {
+  float: left;
+  margin-left: 10px;
+}
+.main-list ul li a {
+  float: right;
+  padding: 0 10px;
+  height: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #666;
+  border-radius: 10px;
+}
