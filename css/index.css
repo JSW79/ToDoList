@@ -3,6 +3,17 @@
   margin: 0;
   box-sizing: border-box;
 }
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  /* IE6、7 专有*/
+  *zoom: 1;
+}
 .header {
   background-color: #333;
 }
@@ -37,6 +48,7 @@
   height: 26px;
   width: 40px;
   border: none;
+  background-color: #fff;
   border-radius: 5px;
 }
 .main-list {
@@ -47,7 +59,6 @@
 }
 .main-list ul li {
   list-style: none;
-  height: 30px;
   padding: 5px 10px;
   margin-top: 10px;
   background-color: #eee;
@@ -59,6 +70,7 @@
 }
 .main-list ul li p {
   float: left;
+  width: 75%;
   margin-left: 10px;
 }
 .main-list ul li a {

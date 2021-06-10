@@ -15,7 +15,7 @@ $(function() {
         let date = getDate();
         $('.main-list>ul').empty();
         $.each(date, function(index, value) {
-            let li = $('<li><input type="checkbox"><p>' + value.todo + '</p><a index='+ index + ' href="javascript:void(0);">删除</a></li>');
+            let li = $('<li class="clearfix"><input type="checkbox"><p>' + value.todo + '</p><a index='+ index + ' href="javascript:void(0);">删除</a></li>');
             li.children('input').prop('checked', value.done);
             if (li.children('input').prop('checked'))
                 $('.done-list').append(li);
